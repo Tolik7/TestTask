@@ -59,5 +59,10 @@ namespace SquareLib.Models
             return S;
 
         }
+
+        public override double CalculateSquareNewMain()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

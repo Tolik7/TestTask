@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SquareLib.Models
 {
-    public class Circle: BaseShape
+    public class Circle : BaseShape
     {
         const double PI = 3.14;
 
@@ -20,6 +20,11 @@ namespace SquareLib.Models
             S = PI * Math.Pow(Radius, 2);
             
             return S;
+        }
+
+        public override double CalculateSquareNewMain()
+        {
+            throw new NotImplementedException();
         }
     }   
 
