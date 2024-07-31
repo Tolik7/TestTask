@@ -7,6 +7,7 @@
         protected double SwithF1 { get; set; }
         protected double SwithF2 { get; set; }
 
+        protected double newField_2 { get; set; }
 
         public abstract double CalculateSquare();
 
