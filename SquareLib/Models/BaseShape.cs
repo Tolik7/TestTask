@@ -4,6 +4,7 @@
     {
         protected double S { get; set; }
 
+        protected double SwithF0 { get; set; }
         protected double SwithF1 { get; set; }
         protected double SwithF2 { get; set; }
 
