@@ -10,6 +10,7 @@
 
         protected double newField_2 { get; set; }
         protected double newField_2_2 { get; set; }
+        protected double newField_2_3 { get; set; }
 
         public abstract double CalculateSquare();
 
